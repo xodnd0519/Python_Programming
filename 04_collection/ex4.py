@@ -110,6 +110,6 @@ stocks = (
 )
 
 # 총 재고 금액 출력
-result = sum(b * c for a, b, c in stocks)
-print(result)
+result = sum(b * c for _, b, c in stocks)
+print(f"총액: {result}")
 # ✅ 총액: 21,000원
