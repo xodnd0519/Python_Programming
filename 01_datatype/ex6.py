@@ -23,9 +23,9 @@ print()  # 같은 객체인가?
 
 # 문자열 연결 시 + 연산도 새로운 문자열 객체를 만듦
 a = "Hello"
-print()
+print(a)
 a += " Python"
-print()
+print(a)
 
 # 문자열 vs 리스트 실행 시간 테스트
 import time

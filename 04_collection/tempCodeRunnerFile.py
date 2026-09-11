@@ -1,0 +1,1 @@
+rint([zip(subjects, scores)])
