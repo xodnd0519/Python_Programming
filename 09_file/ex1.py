@@ -78,6 +78,7 @@ with open(FILE_PATH, "r", encoding="utf-8") as f:
 #  - a 모드: 파일 없으면 새로 생성, 있으면 기존 내용 뒤에 추가
 # ===========================================================
 
+
 # 실행 결과 예상해보기
 with open(FILE_PATH, "w", encoding="utf-8") as f:
     f.write("첫 번째 줄\n")

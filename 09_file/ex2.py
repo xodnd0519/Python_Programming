@@ -85,6 +85,7 @@ students = [
     {"id": 2, "name": "크롱", "scores": {"kor": 90, "mat": 90, "eng": 90}},
 ]
 
+
 # 직렬화) 파이썬 객체 -> JSON 형식 문자열
 json_str = json.dumps(students, ensure_ascii=False, indent=4)
 print(json_str)
